@@ -3,6 +3,9 @@ begin-app
 
 @http
 get /
+post /movies/:movieID
+post /downvote
+post /upvote
 
 @tables
 data
